@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/***************** HEADER ***************************/
+header h1 {
+    
+    padding: 40px 0 30px 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+header #tagline {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.top
+ {
+     padding: .5em;
+     margin: 20px 20px 0 20px;
+     background-color: #C9E15C;
+     height: 180px;
+ }
+/***************** HEADER NAV ***********************/
+.mainnav {
+    height: 55px;
+    background: white;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.mainnav li {
+    display: inline;
+    padding-left: 60px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+nav li a {
+    text-decoration: none;
+}
+/******************* LEFT NAV **********************/
+.lefcolumn {
+    float: left;
+    background-color: white;
+    height: 760px;
+    position: relative;
+    margin: 0 0 20px 20px;
+ }
+
+.leftnav {
+    padding-left: 60px;
+    width: 260px;
+    background-color: #39E2D1;
+    height: 480px;
+}
+
+.leftnav li {
+    padding-top: 28px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.leftnav li:first-of-type {
+    padding-top: 80px;
+}
+
+.colorblock {
+    background-color: #49C1D0;
+    height: 260px; 
+    margin-top: 20px;
+}
+/********************** MAIN CONTENT ****************/
+
+.main-column {
+    position: relative;
+    float: left;
+    width: 76%;
+    height: 700px;
+}
+
+#content-head {
+    margin-left: 20px;
+    background: #E7D75C;
+    height: 100px;
+}
+
+#content-head h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    padding: 30px 0 0 70px;
+}
+
+.main-content {
+    padding: 80px;
+    font-family: "Arial", sans-serif;
+    font-size: 1.2em;
+}
+
+.main-content p {
+    margin-bottom: 1.2em;
+}
+/******************** FOOTER ***********************/
+footer {
+    background: #BBAFA3;
+    position: relative;
+    float: left;
+    height: 50px;
+    margin: .15in;
+    width: 75%;
+}
+
+footer i {
+    float: right;
+    padding: 10px 20px 0 0;
+}
+
+footer i:last-of-type {
+
+}
